@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/aws-lambda": "^8.10.33",
+    "@types/node": "^12.7.12",
+    "netlify-lambda": "^1.6.3",
+    "typescript": "^3.6.3"
+  },
+  "name": "assistant-netlify",
+  "private": true,
+  "scripts": {
+    "build": "netlify-lambda build ./src",
+    "serve": "netlify-lambda serve ./src"
+  },
+  "version": "1.0.0"
+}
