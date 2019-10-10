@@ -5,3 +5,7 @@
 
 [context.production.environment]
   AWS_LAMBDA_JS_RUNTIME = "nodejs10.x"
+
+[template.environment]
+  ASSISTANT_KEY = "Assistant key from playpirates.com site"
+  
