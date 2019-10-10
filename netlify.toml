@@ -7,5 +7,5 @@
   AWS_LAMBDA_JS_RUNTIME = "nodejs10.x"
 
 [template.environment]
-  ASSISTANT_KEY = "Assistant key from playpirates.com site"
+  ASSISTANT_KEY = "Enter assistant key from playpirates.com here"
   
